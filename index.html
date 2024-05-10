@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#71604f">
+  <meta name="msapplication-TileColor" content="#71604f">
+  <meta name="theme-color" content="#71604f">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Peter Stone portfolio</title>
+</head>
+
+<body>
+
+  <header class="header background" id="header">
+
+    <div class="header__slider">
+      <!-- <img class="header__slider-img" src="images/header/header-bg.jpg"> -->
+    </div>
+<!-- style="background: url(images/header/header-bg.jpg);" -->
+
+    <div class="header__wrapper">
+      <div class="container">
+        <nav class="menu">
+
+          <a class="logo element-animation" href="#header">
+            <img class="logo__img" src="images/logo.svg" alt="логотип">
+          </a>
+
+          <button class="burger" type="button">
+            <span class="sr-only">кнопка открытия меню</span>
+            <span class="burger__span"></span>
+          </button>
+
+          <ul class="menu__list element-animation">
+            <li class="menu__item">
+              <a class="menu__link animation" href="#about">
+                About me
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link animation" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link animation" href="#services">
+                Services
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link animation" href="#works">
+                Portfolio
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link animation" href="#reviews">
+                Reviews
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link animation" href="#contacts">
+                Contacts
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header__inner">
+        <h1 class="header__title element-animation">
+          Hello, I'm Peter Stone
+          <span class="header__subtitle element-animation">
+            Interior designer
+          </span>
+        </h1>
+
+        <a class="header__scrol element-animation" href="#works">
+          View more
+        </a>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="about section" id="about">
+      <div class="container">
+
+        <h2 class="title element-animation">About me</h2>
+        <p class="about__text ascent-animation element-animation">
+          I am from Edinburg .My likes and desires grew from being immersed in the beautiful, neo-classical, and
+          Georgian
+          architecture that the city is founded on. Symmetry, spatial awareness, and grounding are consistent elements
+          in my
+          design schemes along with a happy dose of eclectic playfulness.
+        </p>
+        <p class="about__text ascent-animation element-animation">
+          I passionately see a good Interior Design as an artistic expression that carries a meaning of who we are and
+          what we
+          believe. It serves to make us feel loved and to give us a sense of belonging. This is my mission: Making
+          people
+          reconnect with themselves through a unique, welcoming and representative space.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+
+        <h2 class="title element-animation">Skills</h2>
+
+        <div class="skills__inner">
+
+          <img class="skills__photo element-animation" src="images/skills/portrait-skills.jpg" alt="фото автора">
+
+          <ul class="skills__scale element-animation">
+            <li class="skills__item">
+              <span class="skills__text">
+                Creativity
+              </span>
+              <div class="skills__unfill">
+                <div class="skills__fill" style="width: 90%;">
+                  <span class="sr-only">прогресс 90%</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="skills__item">
+              <span class="skills__text">
+                Time management
+              </span>
+              <div class="skills__unfill">
+                <div class="skills__fill" style="width: 85%;">
+                  <span class="sr-only">прогресс 85%</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="skills__item">
+              <span class="skills__text">
+                Communication
+              </span>
+              <div class="skills__unfill">
+                <div class="skills__fill" style="width: 80%;">
+                  <span class="sr-only">прогресс 80%</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="skills__item">
+              <span class="skills__text">
+                Attention to detail
+              </span>
+              <div class="skills__unfill">
+                <div class="skills__fill" style="width: 60%;">
+                  <span class="sr-only">прогресс 60%</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+
+        <h2 class="title element-animation">Services</h2>
+
+        <ul class="services__items element-animation">
+          <li class="services__item services__item--layout">
+            <h3 class="services__subtitle">
+              INTERIOR DESIGN
+            </h3>
+            <p class="services__text">
+              Interiors are a mix of textures, colors, experiences and emotions. My aim is to create spaces fit for the
+              most
+              discerning client.
+            </p>
+          </li>
+
+          <li class="services__item services__item--cms">
+            <h3 class="services__subtitle">
+              KITCHEN DESIGN
+            </h3>
+            <p class="services__text">
+              I love kitchens. I think creatively to provide solutions that consider numerous factors to create spaces
+              that are
+              exciting to experience, live in and own.
+            </p>
+          </li>
+
+          <li class="services__item services__item--support">
+            <h3 class="services__subtitle">
+              PROJECT MANAGEMENT
+            </h3>
+            <p class="services__text">
+              My work is grounded in an understanding of market dynamics, I am proficient in helping my clients
+              determine what to
+              build, not just how to design it.
+            </p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="works section" id="works">
+      <div class="container">
+
+        <div class="popup"></div>
+
+        <h2 class="title works__title element-animation">My works</h2>
+
+        <ul class="works__control">
+          <li class="wores__item-btn element-animation">
+            <button class="works__btn works__btn--active" type="button" data-filter="category-a">All</button>
+          </li>
+          <li class="wores__item-btn element-animation">
+            <button class="works__btn" type="button" data-filter="category-b">Kitchen</button>
+          </li>
+          <li class="wores__item-btn element-animation">
+            <button class="works__btn" type="button" data-filter="category-c">Living room</button>
+          </li>
+          <li class="wores__item-btn element-animation">
+            <button class="works__btn" type="button" data-filter="category-d">Bath</button>
+          </li>
+        </ul>
+
+        <ul class="works__content element-animation">
+        </ul>
+
+        <button class="btn works__btn-more ascent-animation element-animation" type="button" id="works-btn">Load
+          more</button>
+
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews">
+      <div class="container">
+
+        <div class="popup"></div>
+
+        <h2 class="title reviews__title element-animation">Отзывы клиентов</h2>
+
+        <div class="reviews__inner element-animation">
+
+          <figure class="reviews__user element-animation">
+            <img class="reviews__portrait" src="images/reviews/user.jpg" alt="фото пользователя">
+            <figcaption class="reviews__user-name ascent-animation element-animation">Tina Polson</figcaption>
+            <p class="reviews__text ascent-animation element-animation">
+              Our journey with Stylish Home in Toronto has been nothing short of remarkable, a true testament to the
+              power of
+              professional interior design and dedicated service. When we decided to furnish our daughter's apartment,
+              we wanted not
+              just furniture, but a home tailored to her lifestyle. Stylish Home exceeded our expectations at every
+              turn, crafting a
+              living space that resonates with comfort, style, and personality.
+            </p>
+          </figure>
+
+          <a class="reviews__video-link background" href="https://www.youtube.com/watch?v=jfKfPfyJRdk"
+            style="background-image: url('images/reviews/video.bg.png') ;">
+            <span class="sr-only">Прослушать видео отзыв</span>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="info section">
+      <div class="container">
+
+        <h2 class="sr-only">statistics</h2>
+
+        <ul class="info__items element-animation">
+
+          <li class="info__item info__item--works">
+            <h3 class="info__title">Works</h3>
+            <span class="info__number">56</span>
+          </li>
+
+          <li class="info__item info__item--clients">
+            <h3 class="info__title">Happy clients</h3>
+            <span class="info__number">23</span>
+          </li>
+
+          <li class="info__item info__item--coffee">
+            <h3 class="info__title">Coffe</h3>
+            <span class="info__number">477</span>
+          </li>
+
+          <li class="info__item info__item--review">
+            <h3 class="info__title">Reviews</h3>
+            <span class="info__number">48</span>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="contacts section" id="contacts">
+      <div class="container">
+
+        <h2 class="title element-animation">Contacts</h2>
+
+        <div class="contacts__inner">
+
+          <address class="contacts__info ascent-animation element-animation">
+            <p class="contacts__text">
+              Call us or send us an email.
+            </p>
+            <ul class="contacts__lict">
+              <li class="contacts__item">
+                <a class="contacts__link animation" href="tel:+380501111111">+38 (050) 111 11 11</a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link animation" href="mailto:frontend-monster@email.com">frontend-monster@email.com
+                </a>
+              </li>
+            </ul>
+
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__link background" href="#" target="_blank"
+                  style="background-image: url('./images/contacts/instagram.svg');">
+                  <span class="sr-only">Ссылка на инстаграм</span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link background" href="#" target="_blank"
+                  style="background-image: url('./images/contacts/facebook1.svg');">
+                  <span class="sr-only">Ссылка на фейсбук</span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link background" href="#" target="_blank"
+                  style="background-image: url('./images/contacts/telegram.svg');">
+                  <span class="sr-only">Ссылка на телеграм</span>
+                </a>
+              </li>
+            </ul>
+          </address>
+
+          <form class="form" id="form">
+
+            <div class="form__inner">
+              <div class="form__field ascent-animation element-animation">
+                <label class="form__label" for="name">Name</label>
+                <input class="form__input" type="email" id="name" name="name" placeholder="name" required>
+              </div>
+
+              <div class="form__field ascent-animation element-animation">
+                <label class="form__label" for="tel">Phone number</label>
+                <input class="form__input" type="tel" id="tel" name="tel" placeholder="+380501111111" required>
+              </div>
+            </div>
+
+            <div class="form__field ascent-animation element-animation">
+              <label class="form__label" for="message">Leave your massage</label>
+              <textarea class="form__input form__input--message" id="message" name="message"
+                placeholder="text of your message"></textarea>
+            </div>
+
+            <button class="form__btn btn ascent-animation element-animation" type="submit">Send</button>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a class="logo footer__logo element-animation" href="#header">
+      <img class="logo__img" src="images/logo.svg" alt="логотип">
+    </a>
+  </footer>
+
+  <script src="script/script.js"></script>
+</body>
+
+</html>
